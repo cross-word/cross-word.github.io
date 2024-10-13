@@ -17,3 +17,67 @@ url: "https://cross-word.github.io/"
 twitter:
 facebook:
 google:
+
+# Available comment
+comments:
+  provider               : # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : # 블로그 댓글 기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
+# Analytics
+analytics:
+  provider               : false # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+# Site Author
+author:
+  name             : "crossword"
+  avatar           : "/assets/images/bio-photo-keyboard.jpg"
+  bio              : "공부하는 대학생"
+  location         : "South Korea"
+  email            : ss213358ss@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: ss213358ss@gmail.com
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/devinlife"
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 
+paginate_path: /page:num/
+timezone: Asia/Seoul 
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false

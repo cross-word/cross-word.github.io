@@ -4,13 +4,12 @@ highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Jekyll Defaults
-title: Little Big Blue
-email: your-email@domain.com
-description: A small and simple site I made to test out Jekyll. Watch out! I'm going to make a material design theme next!
-baseurl: "" # the subpath of your site, e.g. /blog
+title: crossword
+email: ss213358ss@gmail.com
+description: 
 
 # Where can people find your site?
-url: "http://localhost:3000"
+url: "https://cross-word.github.io/"
 # When developing, set this ^ equal to whatever localhost you're using
 
 # Socail Media links
